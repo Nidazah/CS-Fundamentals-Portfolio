@@ -1,109 +1,83 @@
-💻 CS Fundamentals Portfolio
-A comprehensive collection of Computer Science fundamental programs and algorithms implemented in Python. This portfolio showcases key CS concepts, helping learners understand and visualize core data structures and algorithms through hands-on coding examples.
+# 🗂️ CS Fundamentals Portfolio
 
-🎯 Features
-Core Algorithms & Programs:
+A collection of Python mini-projects built during my Computer Science degree, covering game development, automation, AI, and creative coding with turtle graphics. Each project demonstrates a different area of CS fundamentals applied through practical, working programs.
 
-Sorting Algorithms: Bubble, Selection, Insertion, Merge, Quick
+---
 
-Searching Algorithms: Linear, Binary, Interpolation
+### 🌀 Kaleidoscope
+**File:** `Kaleidoscope.py`
 
-Recursion & Iteration Examples
+Generates beautiful, symmetrical kaleidoscope patterns using Python's turtle module. Demonstrates recursion and geometric symmetry through code.
 
-Basic Data Structures: Arrays, Stacks, Queues, Linked Lists
+**Skills:** Python, Turtle Graphics, Recursion, Geometry
 
-Problem-Solving Focus: Programs designed for algorithmic thinking and practice
+---
 
-Visualization Ready: Many scripts are structured for easy understanding and testing
+### 🌸 Recursive Flower Pattern
+**File:** `Recursive Flower Pattern.py`
 
-Educational Resource: Ideal for beginners and CS students looking to strengthen fundamentals
+Draws intricate flower patterns recursively using turtle graphics. A study in recursion and visual output through mathematical patterns.
 
-🚀 Getting Started
-Prerequisites
-Python 3.x
+**Skills:** Python, Turtle Graphics, Recursion
 
-Optional: Any code editor (VS Code, PyCharm, etc.)
+---
 
-Installation
-Clone the repository:
+### 🌲 Tree
+**File:** `Tree.py`
 
-git clone https://github.com/Nidazah/CS-Fundamentals-Portfolio.git
-cd CS-Fundamentals-Portfolio
-Run a program:
+Draws a fractal tree using recursive branching in turtle graphics. Demonstrates how natural structures can be modeled with recursion.
 
-python filename.py
-(replace filename.py with the desired program, e.g., bubble_sort.py)
+**Skills:** Python, Turtle Graphics, Fractal Recursion
 
-💡 How to Use
-Navigate to the folder of the desired module (e.g., Sorting Algorithms, Recursion Examples)
+---
 
-Open the Python file in your editor or run via terminal
+### 🕴️ Stickman
+**File:** `Stickman.py`
 
-Input required data (if prompted) and observe results/output
+Draws a stickman figure using turtle graphics. A foundational graphics exercise in coordinate-based drawing.
 
-Modify parameters or inputs to experiment and learn
+**Skills:** Python, Turtle Graphics, Coordinate Drawing
 
-🧪 Example Output
-For a Bubble Sort program:
+---
 
-Input Array: [64, 34, 25, 12, 22, 11, 90]
-Sorted Array: [11, 12, 22, 25, 34, 64, 90]
-For a Factorial (Recursion) program:
+## 🛠️ Tech Stack
 
-Input: 5
-Output: 120
-🛠️ Technology Stack
-Language: Python 3
+- **Language:** Python 3
+- **Libraries:** `turtle` (built-in), `pygame`, `tkinter` (built-in), `SpeechRecognition`, `Selenium`
 
-Concepts Covered: Algorithms, Recursion, Iteration, Basic Data Structures
+---
 
-Tools: Any Python IDE or terminal
+## ⚙️ Setup
 
-📝 How It Works
-Each program demonstrates a CS fundamental by:
+Install required external libraries:
 
-Taking user input (or using sample data)
+Built-in libraries (`turtle`, `tkinter`) require no installation.
 
-Applying the algorithm or logic
+---
 
-Displaying the output step-by-step
+## ▶️ How to Run
 
-Allowing easy modification for experimentation
+Each file is standalone. Run any project directly:
 
-🎓 Use Cases
-Students: Practice CS fundamentals for exams or interviews
+```bash
+python "AI New Year Planner.py"
+python Kaleidoscope.py
+# etc.
+```
 
-Self-Learners: Understand algorithms and basic programming constructs
+---
 
-Teachers & Tutors: Use as teaching material for practical demonstration
+## 📈 What This Portfolio Shows
 
-Interview Preparation: Quick reference for standard coding questions
+- Ability to build across multiple domains: automation, creative coding
+- Comfort with Python's standard library (tkinter) and third-party packages
+- Practical application of CS concepts: recursion, game loops, event handling, rule-based logic
+- Creative problem-solving — building things that are both functional and fun
 
-🔮 Future Enhancements
- Add GUI-based visualizations for key algorithms
+---
 
- Include more advanced topics: Trees, Graphs, Hashing
+## 👩‍💻 Author
 
- Create a web-based interactive portfolio
+**Nida** — 6th Semester CS Student | Aspiring AI Engineer | [@Nidazah](https://github.com/Nidazah)
 
- Add unit tests for all programs
-
- Include video demos for algorithms
-
-👩‍💻 Author
-Nida
-
-GitHub: @Nidazah
-
-Computer Science Student | AI & Full-Stack Enthusiast
-
-📄 License
-This project is open source and available for educational purposes.
-
-🤝 Contributing
-Contributions, bug reports, and feature requests are welcome! Check the issues page.
-
-⭐ Show Your Support
-If you found this project helpful, please give it a star!
-
-Built with 💙 by Nida | Helping learners master CS fundamentals
+> *"Building one project at a time toward financial independence and a career in AI."*

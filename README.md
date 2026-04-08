@@ -1,83 +1,113 @@
-# 🗂️ CS Fundamentals Portfolio
+# 🎓 CS Fundamentals Portfolio
 
-A collection of Python mini-projects built during my Computer Science degree, covering game development, automation, AI, and creative coding with turtle graphics. Each project demonstrates a different area of CS fundamentals applied through practical, working programs.
-
----
-
-### 🌀 Kaleidoscope
-**File:** `Kaleidoscope.py`
-
-Generates beautiful, symmetrical kaleidoscope patterns using Python's turtle module. Demonstrates recursion and geometric symmetry through code.
-
-**Skills:** Python, Turtle Graphics, Recursion, Geometry
+> A collection of Python mini-projects showcasing core Computer Science concepts — from AI planning to game development to visual art.
 
 ---
 
-### 🌸 Recursive Flower Pattern
-**File:** `Recursive Flower Pattern.py`
+## 🚀 Project Overview
 
-Draws intricate flower patterns recursively using turtle graphics. A study in recursion and visual output through mathematical patterns.
-
-**Skills:** Python, Turtle Graphics, Recursion
+This repository is a curated portfolio of Python projects built across different CS domains — artificial intelligence, automation, game development, and creative programming with Turtle graphics. Each project is standalone and demonstrates a distinct concept, making this repo a snapshot of practical CS fundamentals applied through code.
 
 ---
 
-### 🌲 Tree
-**File:** `Tree.py`
+## 🎯 Problem It Solves
 
-Draws a fractal tree using recursive branching in turtle graphics. Demonstrates how natural structures can be modeled with recursion.
-
-**Skills:** Python, Turtle Graphics, Fractal Recursion
-
----
-
-### 🕴️ Stickman
-**File:** `Stickman.py`
-
-Draws a stickman figure using turtle graphics. A foundational graphics exercise in coordinate-based drawing.
-
-**Skills:** Python, Turtle Graphics, Coordinate Drawing
+A GitHub profile without visible work tells recruiters and clients nothing. This portfolio solves that by providing **tangible, runnable evidence** of Python skills across multiple domains — proving breadth of knowledge beyond just academic coursework. It serves as a living portfolio for freelancing, internship applications, and personal growth tracking.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python 3
-- **Libraries:** `turtle` (built-in), `pygame`, `tkinter` (built-in), `SpeechRecognition`, `Selenium`
+| Technology | Purpose |
+|---|---|
+| Python 3 | Core language across all projects |
+| Tkinter | GUI for AI New Year Planner |
+| pygame | Game development (Gojo Satoru game) |
+| speech_recognition + selenium | Voice-controlled browser bot |
+| Turtle (built-in) | Visual/creative programming |
 
 ---
 
-## ⚙️ Setup
+## 📁 Projects Included
 
-Install required external libraries:
-
-Built-in libraries (`turtle`, `tkinter`) require no installation.
+| File | Description |
+|---|---|
+| `AI New Year Planner.py` | A rule-based AI planner with a Tkinter GUI to help users set and track New Year goals |
+| `Bot.py` | Voice-controlled browser bot — speak commands to control Chrome |
+| `Catch Gojo Satoru Game ⚔️.py` | Anime-themed arcade game with sprites and sound effects |
+| `Kaleidoscope.py` | Generative art — recursive kaleidoscope patterns using Turtle |
+| `Recursive Flower Pattern.py` | Recursive Turtle drawing of flower patterns |
+| `Stickman.py` | Turtle-drawn animated/static stickman figure |
+| `Tree.py` | Recursive fractal tree drawn with Turtle |
+| `REAL_New_Year.py` | Extended version of the New Year Planner |
 
 ---
 
-## ▶️ How to Run
+## 📸 Screenshots
 
-Each file is standalone. Run any project directly:
+> *(Add screenshots for each project here — GUI windows, game screenshots, and Turtle art outputs.)*
+>
+> Suggested structure:
+> ```
+> screenshots/
+> ├── ai_planner.png
+> ├── gojo_game.png
+> ├── kaleidoscope.png
+> ├── recursive_tree.png
+> └── stickman.png
+> ```
+
+---
+
+## ⚙️ How to Run
+
+### Prerequisites
+- Python 3.x installed
+- Install additional libraries as needed per project
 
 ```bash
-python "AI New Year Planner.py"
-python Kaleidoscope.py
-# etc.
+# Clone the repository
+git clone https://github.com/Nidazah/CS-Fundamentals-Portfolio.git
+cd CS-Fundamentals-Portfolio
 ```
+
+### Run individual projects
+
+```bash
+# AI New Year Planner (requires Tkinter — built into Python)
+python "AI New Year Planner.py"
+
+# Voice Browser Bot (requires selenium, speech_recognition, webdriver_manager)
+pip install selenium speechrecognition webdriver-manager pyaudio
+python Bot.py
+
+# Gojo Satoru Game (requires pygame + asset files)
+pip install pygame
+python "Catch Gojo Satoru Game ⚔️.py"
+
+# Turtle art projects (no external libraries needed)
+python Kaleidoscope.py
+python "Recursive Flower Pattern.py"
+python Stickman.py
+python Tree.py
+```
+
+> **Note for the Gojo game:** Ensure `GOJO_CUP.gif`, `game-start-6104.mp3`, and `game-over-31-179699.mp3` are in the same directory.
 
 ---
 
-## 📈 What This Portfolio Shows
+## 📌 Future Improvements
 
-- Ability to build across multiple domains: automation, creative coding
-- Comfort with Python's standard library (tkinter) and third-party packages
-- Practical application of CS concepts: recursion, game loops, event handling, rule-based logic
-- Creative problem-solving — building things that are both functional and fun
+- [ ] Organize projects into subfolders by domain (AI / Game Dev / Automation / Art)
+- [ ] Add a README for each individual project within its subfolder
+- [ ] Add more AI projects (chatbot, recommendation engine, simple classifier)
+- [ ] Include C++ projects (calculator, DSA implementations) to showcase language diversity
+- [ ] Add video demos/GIFs for each project in the README
+- [ ] Deploy the AI Planner as a web app using Flask or Streamlit
 
 ---
 
 ## 👩‍💻 Author
 
-**Nida** — 6th Semester CS Student | Aspiring AI Engineer | [@Nidazah](https://github.com/Nidazah)
-
-> *"Building one project at a time toward financial independence and a career in AI."*
+**Nida** — CS Student & Aspiring AI Engineer  
+[![GitHub](https://img.shields.io/badge/GitHub-Nidazah-181717?logo=github)](https://github.com/Nidazah)

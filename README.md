@@ -1,22 +1,22 @@
-# 🎓 CS Fundamentals Portfolio
+# CS Fundamentals Portfolio
 
 > A collection of Python mini-projects showcasing core Computer Science concepts — from AI planning to game development to visual art.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This repository is a curated portfolio of Python projects built across different CS domains — artificial intelligence, automation, game development, and creative programming with Turtle graphics. Each project is standalone and demonstrates a distinct concept, making this repo a snapshot of practical CS fundamentals applied through code.
 
 ---
 
-## 🎯 Problem It Solves
+## Problem It Solves
 
 A GitHub profile without visible work tells recruiters and clients nothing. This portfolio solves that by providing **tangible, runnable evidence** of Python skills across multiple domains — proving breadth of knowledge beyond just academic coursework. It serves as a living portfolio for freelancing, internship applications, and personal growth tracking.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -28,7 +28,7 @@ A GitHub profile without visible work tells recruiters and clients nothing. This
 
 ---
 
-## 📁 Projects Included
+## Projects Included
 
 | File | Description |
 |---|---|
@@ -43,9 +43,6 @@ A GitHub profile without visible work tells recruiters and clients nothing. This
 
 ---
 
-## 📸 Screenshots
-
-> *(Add screenshots for each project here — GUI windows, game screenshots, and Turtle art outputs.)*
 >
 > Suggested structure:
 > ```
@@ -59,7 +56,7 @@ A GitHub profile without visible work tells recruiters and clients nothing. This
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### Prerequisites
 - Python 3.x installed
@@ -96,18 +93,16 @@ python Tree.py
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 - [ ] Organize projects into subfolders by domain (AI / Game Dev / Automation / Art)
 - [ ] Add a README for each individual project within its subfolder
 - [ ] Add more AI projects (chatbot, recommendation engine, simple classifier)
-- [ ] Include C++ projects (calculator, DSA implementations) to showcase language diversity
-- [ ] Add video demos/GIFs for each project in the README
 - [ ] Deploy the AI Planner as a web app using Flask or Streamlit
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Nida** — CS Student & Aspiring AI Engineer  
 [![GitHub](https://img.shields.io/badge/GitHub-Nidazah-181717?logo=github)](https://github.com/Nidazah)
